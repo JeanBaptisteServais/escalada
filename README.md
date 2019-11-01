@@ -1,5 +1,10 @@
 # escalada
 
+<p align="center">
+
+<img src = "https://user-images.githubusercontent.com/54853371/68062611-ba164500-fd0b-11e9-858f-2552375650ef.jpg" >
+
+</p>
 
 
 <strong>wall_parameters</strong> permet to modify parameters of the wall. With the file we can raise the background and recup the pieces.
