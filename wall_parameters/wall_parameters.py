@@ -109,8 +109,9 @@ if __name__ == "__main__":
         else:
             print("Picture pls... ")
             oInput = input("Enter a picture. how? press 1")
-
+            
         try:
+            print("Press Q for quit and save parameters")
             end = tracker(oInput)
         except:
             pass
