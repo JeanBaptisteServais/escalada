@@ -1,6 +1,6 @@
 # escalada
 
-Picture here: 
+
 
 wall_parameters permet to modify parameters of the wall. With the file we can raise the background and recup the pieces.
 
