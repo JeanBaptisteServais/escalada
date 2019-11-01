@@ -35,8 +35,9 @@ def tracker(image):
 
     #Save parameters into list
     liste = []
+    #localisation of saved paramaters
+    data_position = "info_data/trackbare.py"
 
-    
     while True:
 
 
@@ -86,7 +87,7 @@ def tracker(image):
             liste.append([l_h, l_s, l_v, u_h, u_s, u_v])
             cv2.destroyAllWindows()
 
-            with open("info_data/trackbare.py", "w") as file:
+            with open(data_position, "w") as file:
                 file.write("liste = " + str(liste[-1]))
             return False
 
@@ -115,24 +116,3 @@ if __name__ == "__main__":
             end = tracker(oInput)
         except:
             pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
