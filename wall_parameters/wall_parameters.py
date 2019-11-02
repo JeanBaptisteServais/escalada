@@ -88,7 +88,7 @@ def tracker(image):
             cv2.destroyAllWindows()
 
             with open(data_position, "w") as file:
-                file.write("liste = " + str(liste[-1]))
+                file.write(str(liste[-1]))
             return False
 
 
@@ -101,7 +101,8 @@ if __name__ == "__main__":
 
 
     phrase = "Enter path, go explorer, go on you're picture," +\
-             "copie url, add picture name + extension"
+             "copie url, add / add picture name + extension \n" +\
+             "like: C:Jb/Dwonload/image.jpg
 
     while True:
 
@@ -116,3 +117,4 @@ if __name__ == "__main__":
             end = tracker(oInput)
         except:
             pass
+
