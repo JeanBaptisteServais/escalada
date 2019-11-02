@@ -32,7 +32,7 @@ Finally we can superperpose top and bot of picture and have:
 
 <h1 id="Caution">Caution</h1>
 
-But this is for the three first picture who's represent the same caracteristics of light. It show the importance of the wall parameters.
+But this is for the three first picture who's represent the same caracteristics of light. <strong>It show the importance of the wall parameters.</strong> (sorry can't do better)
 
 So for each hours or a changement of light (like a cloud pass) <strong>the wall_parameters</strong> must be modify.
 
