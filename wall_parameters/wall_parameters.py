@@ -36,7 +36,8 @@ def tracker(image):
     #Save parameters into list
     liste = []
     #localisation of saved paramaters
-    data_position = "info_data/trackbare.py"
+    data_position1 = "info_data/trackbaretop.py"
+    data_position2 = "info_data/trackbarebot.py"
 
     while True:
 
@@ -84,6 +85,14 @@ def tracker(image):
         #here -> info_data/trackabrre.py
         key = cv2.waitKey(1) & 0xff == ord('q')
         if key:
+
+            Oinput = input("t for top b for bot")
+
+            if Oinput == "t":
+                data_position = data_position1
+            else:
+                data_position = data_position2
+
             liste.append([l_h, l_s, l_v, u_h, u_s, u_v])
             cv2.destroyAllWindows()
 
@@ -96,6 +105,11 @@ def tracker(image):
 
 
 if __name__ == "__main__":
+
+    alert = "ALERTE parameters from this pictures are " +\
+            "TOP :0 46 0 79 255 255 bot: 0 95 0 255 255 255"
+
+    print(alert)
 
     oInput = input("Enter a picture. how? press 1")
 
