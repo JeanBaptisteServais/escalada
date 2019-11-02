@@ -11,10 +11,14 @@
 
 <strong>wall_parameters</strong> permet to modify parameters of the wall. With the file we can raise the background and recup the pieces.
 
+
+
+<h2>How to use it ?</h2>
+
+
+<h3>Demonstation</h3>
+
 Carefull we need to do it 2 times. One time on the top of picture (blue/black colors) and one time one bottom of picture (green). So we can have top and bot objects.
-
-<h3>How to use it ?</h3>
-
 
 picture
 
