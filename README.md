@@ -9,21 +9,24 @@
 
 Carefull we need to do it 2 times. One time on the top of picture (blue/black colors) and one time one bottom of picture (green). So we can have top and bot objects.
 
-This is the top of picture. We detect most of all objects but not all. So we need to do it for the bottom.
+<strong>First we recuperate the top of picture.</strong> We detect most of all objects but not all. So we need to do it for the bottom.
 
 <p align="center">
   <img width="600" height="200" src="https://user-images.githubusercontent.com/54853371/68077152-05d5f680-fdbf-11e9-8914-08c3172cd91f.png">
   
 </p>
 
-Here we can see the difference. We can detect objects not detected by changing parameters.
+<strong>Second We want detect objects not detected by changing parameters.</strong>
 
 <p align="center">
   <img width="600" height="200" src="https://user-images.githubusercontent.com/54853371/68077185-9f050d00-fdbf-11e9-952f-118b8091b73e.png">
   
 </p>
 
+<strong>Finanly we crop this image</strong> by recuperate objects inside the max contour who's moutains pics.
 
+
+<br><br><br><br>
 
 In some, we need top black, bottom white. You just have to press "q" and parameters are save into a file.
 
