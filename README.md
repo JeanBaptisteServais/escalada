@@ -1,83 +1,8 @@
-# escalada (documentation in course, v2 after documentation....)
 
-<p align="center">
-
-<img src = "https://user-images.githubusercontent.com/54853371/68062611-ba164500-fd0b-11e9-858f-2552375650ef.jpg" >
-
-</p>
-
-<br><br>
-
-Care there are some limits <a href="#Caution">Here</a>
-
-<h1>Summary</h1>
-
-
-
-
-<br><br>
-
-<h1>What i need for this project</h1>
-
-1) Python 3.x - https://www.python.org/downloads/
-
-2) Download CV2 and Numpy with the command "pip install open-cv" and "pip install numpy"
-
-3) Use git clone command or copy manually each document with the <strong>same composition</strong>
-
-
-<br><br>
-
-<h1>How the project functions ?</h1>
-
-1) Lunch wall_parameters from <strong>wall_parameters/wall_parameters.py</strong> with f5 or Run/Run Module from the tool barre.
-
-2) Lunch main and click on a key when picture appears.
-
-
-<br><br>
-
-<h1>Architecture</h1>
-
-We have 4 folders:
-  
-  - picture for the wall picture with holds ! 
-  
-      - The picture for a detection need to be on <strong>pictures/wall_pieces/</strong>.
-  
-  - wall_parameters for delete the background.
-
-     - put our absolute path for have acces to the app like: C:User/pictures/wall.jpg.
-
-  - info_data who's contains parameters for the background delete.
-
-
-  - Main
-    
-    - It call path and pictures_functions.
-    
-    <strong>path :</strong> In the path file or path.py you need to put our path
-
-    <strong>pictures_functions :</strong> call basic operation like open a picture, create a picture show it and save it.
-
-
-<br><br>
-
-<h1>What did i need to know about the project ?</h1>
-
-It based on contours ect....
-
-
-<br><br><br><br><br><br>
 
 <h1>Wall_parameters</h1>
 
-
 <strong>wall_parameters</strong> permet to modify parameters of the wall. With the file we can raise the background and recup the pieces.
-
-
-
-<h2>How to use it ?</h2>
 
 
 <h3>Demonstation</h3>
