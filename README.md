@@ -20,7 +20,7 @@ Bot
 
   
 
-Finally we can have:
+Finally we can superperpose top and bot of picture and have:
 
 <p align="center">
 
