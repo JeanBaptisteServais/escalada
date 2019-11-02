@@ -6,6 +6,7 @@
 
 </p>
 
+<br><br>
 
 <h1>What i need for this project</h1>
 
@@ -14,6 +15,15 @@
 2) Download CV2 and Numpy with the command "pip install open-cv" and "pip install numpy"
 
 3) Use git clone command or copy manually each document with the <strong>same composition</strong>
+
+
+<br><br>
+
+<h1>How the project functions ?</h1>
+
+1) Lunch wall_parameters from <strong>wall_parameters/wall_parameters.py</strong> with f5 or Run/Run Module from the tool barre.
+
+2) Lunch main and click on a key when picture appears.
 
 
 
