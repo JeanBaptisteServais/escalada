@@ -7,7 +7,7 @@
 
 We need to do it two times. <strong>One time on the top of picture (blue/black colors)</strong> and <strong>one time one bottom</strong> of picture (green). So we can have top and bot objects.
 
-<strong>First we recuperate the top of picture.</strong> We detect most of all objects but not all. So we need to do it for the bottom.
+<strong>First we need parameters for the top.</strong> We detect most of all objects but not all. So we need to do it for the bottom.
 
 <p align="center">
   <img width="600" height="200" src="https://user-images.githubusercontent.com/54853371/68077152-05d5f680-fdbf-11e9-8914-08c3172cd91f.png">
@@ -15,6 +15,7 @@ We need to do it two times. <strong>One time on the top of picture (blue/black c
 </p>
 
 <strong>Second We want detect objects not detected by changing parameters.</strong>
+
 
 <p align="center">
   <img width="600" height="200" src="https://user-images.githubusercontent.com/54853371/68077185-9f050d00-fdbf-11e9-952f-118b8091b73e.png">
@@ -29,6 +30,16 @@ Note:
 
 #top [0, 46, 0, 79, 255, 255] <br>
 #bot [0, 95, 0, 255, 255, 255] are the good parameters the current wall. With this light intensity (day intensity different night intensity)
+
+
+
+
+
+
+
+
+
+
 
 <br><br><br><br><br><br><br><br>
 
