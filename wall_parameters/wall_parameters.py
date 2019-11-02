@@ -36,8 +36,8 @@ def tracker(image):
     #Save parameters into list
     liste = []
     #localisation of saved paramaters
-    data_position1 = "info_data/trackbaretop.py"
-    data_position2 = "info_data/trackbarebot.py"
+    data_position1 = "../info_data/trackbaretop.py"
+    data_position2 = "../info_data/trackbarebot.py"
 
     while True:
 
@@ -98,6 +98,9 @@ def tracker(image):
 
             with open(data_position, "w") as file:
                 file.write(str(liste[-1]))
+
+            print(liste)
+            print(liste[-1])
             return False
 
 
@@ -116,19 +119,15 @@ if __name__ == "__main__":
 
     phrase = "Enter path, go explorer, go on you're picture," +\
              "copie url, add / add picture name + extension \n" +\
-             "like: C:Jb/Dwonload/image.jpg
+             "like: C:Jb/Dwonload/image.jpg"
 
     while True:
 
         if oInput == "1":
             oInput = input(phrase)
-        else:
-            print("Picture pls... ")
-            oInput = input("Enter a picture. how? press 1")
-            
+
         try:
             print("Press Q for quit and save parameters")
             end = tracker(oInput)
         except:
-            pass
-
+            print("oups")
