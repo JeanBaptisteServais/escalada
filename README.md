@@ -13,6 +13,9 @@
 
 Carefull we need to do it 2 times. One time on the top of picture (blue/black colors) and one time one bottom of picture (green). So we can have top and bot objects.
 
+<h3>How to use it ?</h3>
+
+
 picture
 
 
