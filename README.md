@@ -11,6 +11,10 @@ bot [0, 95, 0, 255, 255, 255]
 
 - Lunch main
 
+- Nothing appear ? click on the python document in tool
+
+- And ? just press a key !
+
 - We have detections with coordinates !
 
 <p align="center">
