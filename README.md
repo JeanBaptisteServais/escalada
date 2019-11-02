@@ -10,7 +10,7 @@
 Carefull we need to do it 2 times. One time on the top of picture (blue/black colors) and one time one bottom of picture (green). So we can have top and bot objects.
 
 <p align="center">
-  <img width="400" height="300" src="https://user-images.githubusercontent.com/54853371/68077152-05d5f680-fdbf-11e9-8914-08c3172cd91f.png">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/54853371/68077152-05d5f680-fdbf-11e9-8914-08c3172cd91f.png">
   
 </p>
 
