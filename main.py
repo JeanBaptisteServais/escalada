@@ -2,13 +2,11 @@ import os
 import cv2
 import numpy as np
 
-from path import wall_pieces as wp
-
 from pictures_function import open_picture
 from pictures_function import show_picture
 from pictures_function import blanck_picture
 
-
+from path import save_parameters_wall_bot as para_bot
 
 def first_operation_picture(path_picture):
 
@@ -24,17 +22,27 @@ def first_operation_picture(path_picture):
 
 def recup_parameters_HSV(file):
 
-    #0 46 0 79 255 255
-    #0 95 0 255 255 255
+    #[0, 46, 0, 79, 255, 255]
+    #[0, 95, 0, 255, 255, 255]
 
-    liste = []
+    #Open file who's contains parameters.
     with open(file, "r") as file:
-        for i in file:
-            liste.append(i.split(","))
+        liste = [i for i in file]
+    #print(liste)
 
-    liste[0][-1] = liste[0][-1][:-1]
+    #Treat and recup data
+    data = ""
+    for i in liste:
+        for j in i:
+            if j not in ("]", "["):
+                data += j
+  
+    #Split it
+    data = data.split(",")
+    data = [int(i) for i in data]
+    #print(data)
 
-    return liste[0]
+    return data
 
 
 
@@ -82,6 +90,7 @@ def draw_contours(mask, blanck, R, P, copy, position):
 
 
 #Directory of wall with pieces
+from path import wall_pieces as wp
 liste_wall_pieces = os.listdir(wp)
 
 #Parameters for contours
@@ -105,7 +114,9 @@ if __name__ == "__main__":
         copy = img.copy()
 
         #Recup parameters from wall_parameters
-        parameters = recup_parameters_HSV("info_data/trackbaretop.py")
+        from path import save_parameters_wall_top as para_top
+        parameters = recup_parameters_HSV(para_top)
+        #print(parameters)
 
         #Make a mask for delete background
         mask = HSV_mask(img, parameters[:3], parameters[3:])
@@ -120,6 +131,8 @@ if __name__ == "__main__":
 
         show_picture("copy", copy, 0, "")
         show_picture("blanck", blanck, 0, "")
+
+
 
 
 
