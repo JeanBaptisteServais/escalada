@@ -1,5 +1,16 @@
 # escalada
 
+- So for this project, you need to put you're picture (only the wall with holds on it) in pictures/wall/wall_piecs
+
+- Lunch wall_paramters (for delete background) 
+
+- enter you're picture try it BUT CARE u'll modify file so try with parameters top [0, 46, 0, 79, 255, 255] <br>
+bot [0, 95, 0, 255, 255, 255]
+
+- Lunch main
+
+- We have detections with coordinates !
+
 <p align="center">
 
 <img src = "https://user-images.githubusercontent.com/54853371/68062611-ba164500-fd0b-11e9-858f-2552375650ef.jpg" >
