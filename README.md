@@ -14,5 +14,9 @@ Carefull we need to do it 2 times. One time on the top of picture (blue/black co
 In some, we need top black, bottom white. You just have to press "q" and parameters are save into a file.
 
 
+Note: 
+
+#[0, 46, 0, 79, 255, 255]
+#[0, 95, 0, 255, 255, 255] are the good parameters for the current picture. With this light intensity (day intensity different night intensity)
 
 
