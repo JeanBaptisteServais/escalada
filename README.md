@@ -26,6 +26,37 @@
 2) Lunch main and click on a key when picture appears.
 
 
+<br><br>
+
+<h1>Architecture</h1>
+
+We have 4 folders:
+  
+  - picture for the wall picture with holds ! 
+  
+      - The picture for a detection need to be on <strong>pictures/wall_pieces/</strong>.
+  
+  - wall_parameters for delete the background.
+
+     - put our absolute path for have acces to the app like: C:User/pictures/wall.jpg.
+
+  - info_data who's contains parameters for the background delete.
+
+
+  - Main
+    
+    - It call path and pictures_functions.
+    
+      - In the
+
+
+
+
+
+
+
+
+<br><br>
 
 <h1>Wall_parameters</h1>
 
