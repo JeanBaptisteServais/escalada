@@ -8,14 +8,17 @@ from pictures_function import blanck_picture
 
 from path import save_parameters_wall_bot as para_bot
 
+
 def first_operation_picture(path_picture):
 
     #Resize picture to 500x500.
     img = cv2.resize(open_picture(path_picture), (500, 500))
+    #show_picture("img", img, 0, "")
 
     #We delete the ground and the roof.
     height, width, channel = img.shape
     img = img[70:height-50, 0:width]
+    #show_picture("picture_crop", img, 0, "")
 
     return img
 
@@ -36,7 +39,9 @@ def recup_parameters_HSV(file):
         for j in i:
             if j not in ("]", "["):
                 data += j
-  
+
+    #print(data)
+
     #Split it
     data = data.split(",")
     data = [int(i) for i in data]
@@ -81,6 +86,8 @@ def draw_contours(mask, blanck, R, P, copy, position):
             print("ici", w, h)
             cv2.rectangle(copy, (x, y), (x+w, y+h), (0, 0, 255), 3)
 
+            #show_picture("blanck", blanck, 0, "")
+            #show_picture("copy", copy, 0, "")
 
 
     return copy, blanck
