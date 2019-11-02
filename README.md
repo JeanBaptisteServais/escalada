@@ -47,8 +47,9 @@ We have 4 folders:
     
     - It call path and pictures_functions.
     
-      - In the
+    <strong>path :</strong> In the path file or path.py you need to put our path
 
+    <strong>pictures_functions :</strong> call basic operation like open a picture, create a picture show it and save it.
 
 
 
