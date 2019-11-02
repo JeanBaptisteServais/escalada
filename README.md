@@ -111,4 +111,4 @@ So for each hours or a changement of light (like a cloud pass) <strong>the wall_
 
 For the moment it must be manually, maybe it could be automatic.
 
-Care it's not finish 100% because i need more picture
+Care it's not finish 100% because i need more picture with more holds on the wall !
