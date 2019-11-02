@@ -8,6 +8,10 @@
 
 <br><br>
 
+Care there are some limits <a href="Caution"></a>
+
+<br><br>
+
 <h1>What i need for this project</h1>
 
 1) Python 3.x - https://www.python.org/downloads/
@@ -92,6 +96,8 @@ Note:
 
 
 <br><br><br><br><br><br>
+
+<h1 id="Caution">Caution</h1>
 
 But this is for the three first picture who's represent the same caracteristics of light. It show the importance of the wall parameters.
 
