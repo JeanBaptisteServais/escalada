@@ -20,6 +20,6 @@ In some, we need top black, bottom white. You just have to press "q" and paramet
 Note: 
 
 #[0, 46, 0, 79, 255, 255] <br>
-#[0, 95, 0, 255, 255, 255] are the good parameters for the current picture. With this light intensity (day intensity different night intensity)
+#[0, 95, 0, 255, 255, 255] are the good parameters the current wall. With this light intensity (day intensity different night intensity)
 
 
