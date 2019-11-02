@@ -16,15 +16,12 @@ This is the top of picture. We detect most of all objects but not all. So we nee
   
 </p>
 
+Here we can see the difference. We can detect objects not detected by changing parameters.
 
-
-
-
-
-
-
-
-
+<p align="center">
+  <img width="600" height="200" src="https://user-images.githubusercontent.com/54853371/68077185-9f050d00-fdbf-11e9-952f-118b8091b73e.png">
+  
+</p>
 
 
 
