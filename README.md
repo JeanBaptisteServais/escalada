@@ -23,10 +23,6 @@ Carefull we need to do it 2 times. One time on the top of picture (blue/black co
   
 </p>
 
-<strong>Finanly we crop this image</strong> by recuperate objects inside the max contour who's moutains pics.
-
-
-<br><br><br><br>
 
 In some, we need top black, bottom white. You just have to press "q" and parameters are save into a file.
 
