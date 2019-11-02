@@ -1,4 +1,4 @@
-# escalada
+# escalada (documentation in course)
 
 <p align="center">
 
