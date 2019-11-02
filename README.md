@@ -115,9 +115,9 @@ Now we have our wall parameters who's permet to identify objects. But we can see
 
 <strong>Top</strong> 
 
-  - We recuperate all contours, if the are of contours < 100 or the contours are > 1000 don't pass.
+  - We recuperate all contours beetween 100 and 1000
   
-  - If the width + height of detection < 15 pass.
+  - If the width + height of detection > 15
   
 
 <strong>Bot</strong> 
@@ -126,7 +126,7 @@ Now we have our wall parameters who's permet to identify objects. But we can see
   
   - We recuperate all contours from the bottom beetween area of 200 to 10000.
   
-  - If the height of the detection is < 50 pass.
+  - If the height of the detection > 50.
 
 
   
