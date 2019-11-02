@@ -6,6 +6,17 @@
 
 </p>
 
+
+<h1>What i need for this project</h1>
+
+1) Python 3.x - https://www.python.org/downloads/
+
+2) Download CV2 and Numpy with the command "pip install open-cv" and "pip install numpy"
+
+3) Use git clone command or copy manually each document with the <strong>same composition</strong>
+
+
+
 <h1>Wall_parameters</h1>
 
 
