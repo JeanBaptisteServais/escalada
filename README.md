@@ -61,6 +61,7 @@ We have 4 folders:
     <strong>pictures_functions :</strong> call basic operation like open a picture, create a picture show it and save it.
 
 
+<br><br>
 
 <h1>What did i need to know about the project ?</h1>
 
