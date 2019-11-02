@@ -110,3 +110,5 @@ But this is for the three first picture who's represent the same caracteristics 
 So for each hours or a changement of light (like a cloud pass) <strong>the wall_parameters</strong> must be modify.
 
 For the moment it must be manually, maybe it could be automatic.
+
+Care it's not finish 100% because i need more picture
