@@ -1,4 +1,4 @@
-# escalada (documentation in course, v2 after documentation....)
+# escalada
 
 <p align="center">
 
