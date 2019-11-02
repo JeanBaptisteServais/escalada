@@ -19,7 +19,7 @@ In some, we need top black, bottom white. You just have to press "q" and paramet
 
 Note: 
 
-# top [0, 46, 0, 79, 255, 255] <br>
+#top [0, 46, 0, 79, 255, 255] <br>
 #bot [0, 95, 0, 255, 255, 255] are the good parameters the current wall. With this light intensity (day intensity different night intensity)
 
 
@@ -28,7 +28,7 @@ Note:
 
 
 
-
+<br><br><br><br><br><br>
 
 But this is for the three first picture who's represent the same caracteristics of light. It show the importance of the wall parameters.
 
