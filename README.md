@@ -6,6 +6,8 @@
 
 </p>
 
+<h1>Wall_parameters</h1>
+
 
 <strong>wall_parameters</strong> permet to modify parameters of the wall. With the file we can raise the background and recup the pieces.
 
