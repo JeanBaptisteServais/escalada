@@ -42,7 +42,7 @@ So for each hours or a changement of light (like a cloud pass) <strong>the wall_
 
 <p align="center">
 
-<img  width="500" height="300" src="https://user-images.githubusercontent.com/54853371/68077347-56028800-fdc2-11e9-8202-d7c69b796214.png">
+<img  width="600" height="400" src="https://user-images.githubusercontent.com/54853371/68077347-56028800-fdc2-11e9-8202-d7c69b796214.png">
 
 </p>
 
