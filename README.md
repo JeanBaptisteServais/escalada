@@ -23,3 +23,13 @@ Note:
 #bot [0, 95, 0, 255, 255, 255] are the good parameters the current wall. With this light intensity (day intensity different night intensity)
 
 
+
+
+
+
+
+
+
+But this is for the three first picture who's represent the same caracteristics of light. It show the importance of the wall parameters.
+
+So for each hours or if change of light like a cloud pass the wall_parameters must be modify.
