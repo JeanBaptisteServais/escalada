@@ -22,8 +22,11 @@ Bot
 
 Finally we can have:
 
+<p align="center">
 
+<img  width="500" height="200" src="https://user-images.githubusercontent.com/54853371/68077313-d4125f00-fdc1-11e9-8e3c-83abe08a46d5.png">
 
+</p>
 
 <br><br><br><br><br><br>
 
