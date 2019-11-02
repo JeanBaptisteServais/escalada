@@ -36,8 +36,8 @@ def tracker(image):
     #Save parameters into list
     liste = []
     #localisation of saved paramaters
-    data_position1 = "../info_data/trackbaretop.py"
-    data_position2 = "../info_data/trackbarebot.py"
+    data_position1 = "../info_data/trackbaretop.txt"
+    data_position2 = "../info_data/trackbarebot.txt"
 
     while True:
 
@@ -131,3 +131,4 @@ if __name__ == "__main__":
             end = tracker(oInput)
         except:
             print("oups")
+
