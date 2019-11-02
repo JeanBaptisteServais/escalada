@@ -36,6 +36,19 @@ But this is for the three first picture who's represent the same caracteristics 
 
 So for each hours or a changement of light (like a cloud pass) <strong>the wall_parameters</strong> must be modify.
 
+
+
+
+
+<p align="center">
+
+<img  width="500" height="300" src="https://user-images.githubusercontent.com/54853371/68077347-56028800-fdc2-11e9-8202-d7c69b796214.png">
+
+</p>
+
+
+
+
 For the moment it must be manually, maybe it could be automatic.
 
 Care it's not finish 100% because i need more picture with more holds on the wall !
