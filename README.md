@@ -33,3 +33,5 @@ Note:
 But this is for the three first picture who's represent the same caracteristics of light. It show the importance of the wall parameters.
 
 So for each hours or if change of light like a cloud pass the wall_parameters must be modify.
+
+For the moment it must be manually, maybe it could be automatic.
