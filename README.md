@@ -11,7 +11,7 @@ bot [0, 95, 0, 255, 255, 255]
 
 - Lunch main
 
-- Nothing appear ? click on the python document in tool
+- Nothing appear ? click on the python document in barre tool
 
 - And ? just press a key !
 
