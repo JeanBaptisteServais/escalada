@@ -1,13 +1,13 @@
-
-
-<br><br><br><br><br><br><br><br>
-
 <h1>Main</h1>
 
-<h2>How to use it ?</h2>
+Now we have our wall parameters who's permet to identify objects. But we can see some noises. For that we must draw all contours and filter them.
+
+Top 
 
 
-<h3>Demonstation</h3>
+
+Bot
+
 
 
 
