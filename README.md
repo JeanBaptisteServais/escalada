@@ -4,7 +4,9 @@
 
 - Lunch wall_paramters (for delete background) 
 
-- enter you're picture try it BUT CARE u'll modify file so try with parameters top [0, 46, 0, 79, 255, 255] <br>
+- enter you're picture try it, u need to do it 2 times.
+
+CARE u'll modify file so try with parameters top [0, 46, 0, 79, 255, 255] <br>
 bot [0, 95, 0, 255, 255, 255]
 
 - Lunch main
